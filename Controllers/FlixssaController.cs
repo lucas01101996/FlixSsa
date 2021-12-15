@@ -16,12 +16,12 @@ namespace Filmes.Controllers{
             context = dbContext;
         }
 
-        // GET: /Main/
+        // GET: /<controller>/
         public IActionResult Main()
         {
-            List<Filme> Filmes = context.Filmes.ToList();
-
-            return View(Filmes);
+            List<Filme> filmes = context.Filmes.ToList();
+            
+            return View(filmes);
         }
 
     public IActionResult Add()
@@ -46,7 +46,7 @@ namespace Filmes.Controllers{
                 context.Filmes.Add(newFilme);
                 context.SaveChanges();
 
-                return Redirect("/Filme");
+                return Redirect("/flixssa/Main");
             }
 
             return View(AddFilmeVm);
@@ -70,7 +70,7 @@ namespace Filmes.Controllers{
 
             context.SaveChanges();
 
-            return Redirect("/filmes");
+            return Redirect("/flixssa/Main");
                 }
         
         }

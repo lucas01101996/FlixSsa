@@ -5,8 +5,8 @@ namespace Filmes.Models
     
     public enum GeneroType
     {
-        Acao,
-        Suspense,
+        Acao = 1,
+        Suspense ,
         Comedia,
         Terror,
         Aventura

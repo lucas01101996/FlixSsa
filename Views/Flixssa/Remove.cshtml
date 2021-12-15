@@ -6,8 +6,8 @@
 
     @foreach (var Filme in ViewBag.Filmes)
     {
-        <input type="checkbox" name="FilmeIds" id="@Filme.ID" value="@Filme.ID" /> 
-        <label for="@Filme.ID">@Filme.Name</label>
+        <input type="checkbox" name="FilmeIds" id="@Filme.FilmeId" value="@Filme.FilmeId" /> 
+        <label for="@Filme.FilmeId">@Filme.Titulo</label>
         <br />
     }
 

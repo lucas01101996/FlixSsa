@@ -4,16 +4,16 @@
 <table class="table">
 
     <tr>
-        <th>Name</th>
-        <th>Description</th>
+        <th>Titulo</th>
+        <th>Lancamento</th>
         <td>Type</td>
     </tr>
-  @foreach (var Filme in Model)
+  @foreach (var filme in Model)
     {
         <tr>
-            <td>@Filme.Titulo</td>
-            <td>@Filme.Lancamento</td>
-            <td>@Filme.Type</td>
+            <td>@filme.Titulo</td>
+            <td>@filme.Lancamento</td>
+            <td>@filme.Type</td>
         </tr>
     }
 </table>
@@ -22,4 +22,4 @@
     <p>No Filmes yet!</p>
 }
 
-<p><a asp-controller="Filme" asp-action="Add">Add Filme</a></p>
+<p><a asp-controller="Flixssa" asp-action="Add">Add Filme</a></p>

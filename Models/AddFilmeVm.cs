@@ -23,7 +23,7 @@ namespace Filmes.Models
 
         public AddFilmeVm(){
             Select = new List<SelectListItem>();
-            //<Optional values = "0"> Acao<Optional>
+            //<option values = "1"> Acao</option>
             Select.Add(new SelectListItem{
                 Value = ((int) GeneroType.Acao).ToString(),
                 Text = GeneroType.Acao.ToString()
