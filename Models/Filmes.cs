@@ -12,7 +12,7 @@ namespace Filmes.Models
 
         [DataType(DataType.Date)]
         public DateTime Lancamento{ get; set; }
-        public string Genero { get; set; }
+        public GeneroType Type { get; set; }
         public string Img { get; set; }
     }
 }

@@ -1,0 +1,14 @@
+@model Filmes.Models.AddFilmeVm
+
+<h1>Add Cheese</h1>
+
+<form asp-controller="Filme" asp-action="Add" method="post">
+ <div class="form-group">
+        <label asp-for="Titulo"></label>
+        <input class="form-control" asp-for="Titulo" />
+        <span asp-validation-for="Titulo"></span>
+    </div>
+
+    <input type="submit" value="Add Cheese" />
+
+</form>

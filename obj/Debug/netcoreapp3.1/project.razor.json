@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Add.cshtml",
+      "TargetPath": "Views\\Flixssa\\Add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Details.cshtml",
       "TargetPath": "Views\\Filmes\\Details.cshtml",
       "FileKind": "mvc"
@@ -14447,8 +14452,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Remove.cshtml",
+      "TargetPath": "Views\\Flixssa\\Remove.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Main.cshtml",
+      "TargetPath": "Views\\Flixssa\\Main.cshtml",
       "FileKind": "mvc"
     },
     {

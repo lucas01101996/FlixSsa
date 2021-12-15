@@ -151,3 +151,6 @@ C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\
 C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Filmes\Details.cshtml.g.cs
 C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Filmes\Edit.cshtml.g.cs
 C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Filmes\Index.cshtml.g.cs
+C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Flixssa\Add.cshtml.g.cs
+C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Flixssa\Main.cshtml.g.cs
+C:\Users\lucas\Desktop\Senai\SenaiC#\Filmes\obj\Debug\netcoreapp3.1\Razor\Views\Flixssa\Remove.cshtml.g.cs

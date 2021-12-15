@@ -1,0 +1,15 @@
+@model Filmes.Models.Filme
+
+<h1>@ViewBag.title</h1>
+
+<form method="post">
+
+    @foreach (var Filme in ViewBag.Filmes)
+    {
+        <input type="checkbox" name="FilmeIds" id="@Filme.ID" value="@Filme.ID" /> 
+        <label for="@Filme.ID">@Filme.Name</label>
+        <br />
+    }
+
+    <input type="submit" value="Remove Selected Filme(s)" />
+</form>
