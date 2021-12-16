@@ -3,25 +3,26 @@
 <h1>@ViewBag.Title</h1>
 <table class="table">
 
-    <form asp-controller="Flixssa" asp-action="Main">
+    <form  asp-controller="Flixssa" asp-action="Main">
     <p>
-        Titulo: <input type="text" name="src" />
-        <input type="submit" value="Filter" />
+        <input class = "col-3" class="form-control" type="text" placeholder="Buscar" aria-label="Search" name="src">
+        
+      <button class="btn btn-info btn-sm" type="submit">Buscar</button>
     </p>
 </form>    
     <tr>
         <th>Imagem</th>
         <th>Titulo</th>
         <th>Lancamento</th>
-        <td>Tipo</td>
+        <th>Tipo</th>
     </tr>
-  @foreach (var filme in Model)
+  @foreach (var Filme in Model)
     {
-        <tr>
-            <td><img src=@filme.Img alt = "imagem"/></td>
-            <td>@filme.Titulo</td>
-            <td>@filme.Lancamento</td>
-            <td>@filme.Type</td>
+        <tr class = "text-warning">
+            <td ><img class="col-sm" src=@Filme.Img alt = "imagem"/></td>
+            <td class="col-3">@Filme.Titulo</td>
+            <td class="col-3">@Filme.Lancamento</td>
+            <td class="col-3">@Filme.Type</td>
         </tr>
     }
 </table>
@@ -31,4 +32,3 @@
 }
 
 <p><a asp-controller="Flixssa" asp-action="Add">Add Filme</a></p>
-
