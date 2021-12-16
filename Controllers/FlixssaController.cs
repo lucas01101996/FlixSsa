@@ -17,9 +17,15 @@ namespace Filmes.Controllers{
         }
 
         // GET: /<controller>/
-        public IActionResult Main()
+        public IActionResult Main(string src)
         {
             List<Filme> filmes = context.Filmes.ToList();
+
+             if (!String.IsNullOrEmpty(src)) 
+            { 
+                
+             var filme = context.Filmes.Where(f => f.Titulo.Contains(src));
+            } 
             
             return View(filmes);
         }
@@ -40,7 +46,8 @@ namespace Filmes.Controllers{
                 {
                     Titulo = AddFilmeVm.Titulo,
                     Lancamento = AddFilmeVm.Lancamento,
-                    Type = AddFilmeVm.Type
+                    Type = AddFilmeVm.Type,
+                    Img = AddFilmeVm.Img
                 };
 
                 context.Filmes.Add(newFilme);

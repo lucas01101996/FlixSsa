@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\downloads\\acad\\project1\\flixssa\\Filmes.csproj": {}
+    "D:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj": {}
   },
   "projects": {
-    "D:\\downloads\\acad\\project1\\flixssa\\Filmes.csproj": {
+    "D:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\downloads\\acad\\project1\\flixssa\\Filmes.csproj",
+        "projectUniqueName": "D:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj",
         "projectName": "Filmes",
-        "projectPath": "D:\\downloads\\acad\\project1\\flixssa\\Filmes.csproj",
+        "projectPath": "D:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj",
         "packagesPath": "C:\\Users\\Igor Almeida\\.nuget\\packages\\",
-        "outputPath": "D:\\downloads\\acad\\project1\\flixssa\\obj\\",
+        "outputPath": "D:\\downloads\\acad\\project1\\FlixSsa\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

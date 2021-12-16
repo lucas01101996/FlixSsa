@@ -11,7 +11,9 @@ namespace Filmes.Models
         public string Titulo { get; set; }
 
         [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Lancamento{ get; set; }
+        [Display (Name = "Tipo")]
         public GeneroType Type { get; set; }
         public string Img { get; set; }
     }

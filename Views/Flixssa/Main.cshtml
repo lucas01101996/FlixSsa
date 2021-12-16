@@ -4,13 +4,15 @@
 <table class="table">
 
     <tr>
+        <th>Imagem</th>
         <th>Titulo</th>
         <th>Lancamento</th>
-        <td>Type</td>
+        <td>Tipo</td>
     </tr>
   @foreach (var filme in Model)
     {
         <tr>
+            <td><img src=@filme.Img alt = "imagem"/></td>
             <td>@filme.Titulo</td>
             <td>@filme.Lancamento</td>
             <td>@filme.Type</td>
@@ -23,3 +25,4 @@
 }
 
 <p><a asp-controller="Flixssa" asp-action="Add">Add Filme</a></p>
+

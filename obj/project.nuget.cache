@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "enV+vful04mg2r4DkjP8jAKmGx7/lzKSL73ZZ8ICqVoDbxiRyUsMfD0pJkXopIIzXcRUndqeIcfp4Un3pOOXYA==",
+  "dgSpecHash": "U4o+FQM9xn3Qq2OAQoqQ/PqyWpZnskkti7rmcJnxz2lXepFRyX/an+48TuZlsl+0YcIGlrdzC1KhkXitfsSd4Q==",
   "success": true,
-  "projectFilePath": "D:\\downloads\\acad\\project1\\flixssa\\Filmes.csproj",
+  "projectFilePath": "D:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor Almeida\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Igor Almeida\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

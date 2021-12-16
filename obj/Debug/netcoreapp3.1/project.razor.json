@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Filmes.csproj",
+  "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Filmes.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,78 +14402,78 @@
   "RootNamespace": "Filmes",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Add.cshtml",
-      "TargetPath": "Views\\Flixssa\\Add.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Details.cshtml",
-      "TargetPath": "Views\\Filmes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Delete.cshtml",
-      "TargetPath": "Views\\Filmes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Edit.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Filmes\\Edit.cshtml",
       "TargetPath": "Views\\Filmes\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Create.cshtml",
-      "TargetPath": "Views\\Filmes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Remove.cshtml",
-      "TargetPath": "Views\\Flixssa\\Remove.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Flixssa\\Main.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Flixssa\\Add.cshtml",
+      "TargetPath": "Views\\Flixssa\\Add.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Filmes\\Index.cshtml",
+      "TargetPath": "Views\\Filmes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Filmes\\Details.cshtml",
+      "TargetPath": "Views\\Filmes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Flixssa\\Remove.cshtml",
+      "TargetPath": "Views\\Flixssa\\Remove.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Flixssa\\Main.cshtml",
       "TargetPath": "Views\\Flixssa\\Main.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\_ViewStart.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Filmes\\Create.cshtml",
+      "TargetPath": "Views\\Filmes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\lucas\\Desktop\\Senai\\SenaiC#\\Filmes\\Views\\Filmes\\Index.cshtml",
-      "TargetPath": "Views\\Filmes\\Index.cshtml",
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Filmes\\Delete.cshtml",
+      "TargetPath": "Views\\Filmes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\downloads\\acad\\project1\\FlixSsa\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],
