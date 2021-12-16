@@ -17,17 +17,18 @@ namespace Filmes.Controllers{
         }
 
         // GET: /<controller>/
-        public IActionResult Main(string src)
+        public async Task<IActionResult> Main(string src)
         {
-            List<Filme> filmes = context.Filmes.ToList();
+            
+            var filmes = from f in context.Filmes select f;
 
              if (!String.IsNullOrEmpty(src)) 
             { 
                 
-             var filme = context.Filmes.Where(f => f.Titulo.Contains(src));
+              filmes = filmes.Where(f => f.Titulo.Contains(src));
             } 
             
-            return View(filmes);
+            return View(await filmes.ToListAsync());
         }
 
     public IActionResult Add()

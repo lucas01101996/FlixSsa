@@ -3,6 +3,12 @@
 <h1>@ViewBag.Title</h1>
 <table class="table">
 
+    <form asp-controller="Flixssa" asp-action="Main">
+    <p>
+        Titulo: <input type="text" name="src" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>    
     <tr>
         <th>Imagem</th>
         <th>Titulo</th>
