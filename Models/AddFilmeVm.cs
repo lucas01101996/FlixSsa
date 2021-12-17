@@ -11,16 +11,20 @@ namespace Filmes.Models
     [Table("addFilmeVm")]
     public class AddFilmeVm
     {
-        [Required]
+        [Required(ErrorMessage = "{0} required")]
+        [StringLength(60, MinimumLength = 3, ErrorMessage = "Tamanho do {0} tem que ter entre {2} e {1} ")]
         public string Titulo { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
-        [Required]
+        [Required(ErrorMessage = "{0} required")]
         public DateTime Lancamento{ get; set; }
-        [Display(Name="Genero  ")]
+        [Display(Name="Genero")]
+        [Required(ErrorMessage = "{0} required")]
         public GeneroType Type { get; set; }
+        [Required(ErrorMessage = "{0} required")]
         public string Img { get; set; }
+        [Required(ErrorMessage = "{0} required")]
         public List<SelectListItem> Select {get; set;}
 
         public AddFilmeVm(){
