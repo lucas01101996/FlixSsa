@@ -5,7 +5,7 @@
 <form  asp-controller="Flixssa" asp-action="Main">
         <p>
             <input class = "col-3" class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search" name="src">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+            <button class="btn btn-info my-2 my-sm-0" type="submit">Buscar</button>
         </p>
 </form>
 <table class="table">
@@ -15,17 +15,17 @@
             <th>Imagem</th>
             <th>Titulo</th>
             <th>Lancamento</th>
-            <th>Tipo</th>
+            <th>Genero</th>
         </tr>
     </thead>    
     
   @foreach (var Filme in Model)
     {
         <tbody>
-            <tr class ="text-primary">
-                <td><img class="col-sm" src=@Filme.Img alt = "imagem"/></td>
+            <tr class="table-light" class ="text-primary">
+                <td><img class="col-sm"  style="height: 140px" src=@Filme.Img alt = "imagem"/></td>
                 <td class="col-3">@Filme.Titulo</td>
-                <td class="col-3">@Filme.Lancamento</td>
+                <td class="col-3">@Filme.Lancamento.ToString("MM/dd/yyyy")</td>
                 <td class="col-3">@Filme.Type</td>
              </tr>
         </tbody>
@@ -33,7 +33,7 @@
 </table>
 @if (Model.Count == 0)
 {
-    <p>No Filmes yet!</p>
+    <p>Sem Filmes Ainda</p>
 }
 
-<a asp-controller="Flixssa" asp-action="Add">Add Filme</a>
+<a class="btn btn-primary" asp-controller="Flixssa" asp-action="Add">Add Filme</a>
