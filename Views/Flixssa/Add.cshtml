@@ -1,10 +1,13 @@
 @model Filmes.Models.AddFilmeVm
 <div id="form">
-    <h1>Add Filme</h1>
+    <div class="">
+        <h1>Add Filme</h1>
+    </div>
 
     <form asp-controller="Flixssa" asp-action="Add" method="post">
+            
             <div class="form-group">
-                <label asp-for="Titulo"></label>
+                <label asp-for="Titulo" class="control-label"></label>
                 <input class="form-control" asp-for="Titulo" />
                 <span asp-validation-for="Titulo" class="text-danger"></span>
             </div>
@@ -14,8 +17,8 @@
                 <span asp-validation-for="Lancamento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Type"></label>
-                <select asp-for="Type" asp-items="Model.Select"></select>
+                <label asp-for="Type" for="exampleSelect1" class="control-label"></label>
+                <select asp-for="Type" asp-items="Model.Select" class="form-control" id="exampleSelect1"></select>
                 <span asp-validation-for="Type" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -23,8 +26,9 @@
                 <input class="form-control" asp-for="Img" />
                 <span asp-validation-for="Img" class="text-danger"></span>
             </div>
-
-            <input type="submit" value="Add Filme" />
+            <div class="form-group">
+                <input type="submit" value="Add Filme" class="btn btn-primary"/>
+            </div>  
     </form>
 </div>
 

@@ -6,10 +6,11 @@
 
     @foreach (var Filme in ViewBag.Filmes)
     {
-        <input type="checkbox" name="FilmeIds" id="@Filme.FilmeId" value="@Filme.FilmeId" /> 
-        <label for="@Filme.FilmeId">@Filme.Titulo</label>
-        <br />
+        <div class="custom-control custom-checkbox">
+            <input type="checkbox"  name="FilmeIds" id="@Filme.FilmeId" value="@Filme.FilmeId" /> 
+            <label for="@Filme.FilmeId">@Filme.Titulo</label>
+        </div>
     }
-
-    <input type="submit" value="Remove Selected Filme(s)" />
+    <br>
+    <input type="submit" value="Remove Selected Filme(s)"  class="btn btn-danger"/>
 </form>
